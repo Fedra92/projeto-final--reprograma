@@ -1,0 +1,12 @@
+.formControl {
+    width: 300px;
+    display: flex;
+}
+
+.formCard {
+    width: 600px;
+    padding: 2rem;
+    background-color: aqua;
+    margin-left: 85px;
+}
+

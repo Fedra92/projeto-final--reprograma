@@ -1,0 +1,17 @@
+
+
+
+
+.menuContainer{
+    display: flex;
+    gap: 3rem;
+    padding: 3rem;
+    text-decoration: none;
+    justify-content: center
+
+}
+
+.menuItem {
+    list-style-type: none;
+    font-weight: bold
+}
