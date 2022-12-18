@@ -1,7 +1,7 @@
 import styles from '../../CSS/display.module.css'
 
 export function DisplayTimer(props){
-    //lógica do setInterval+parte da conta
+
 
     return (
     <div>

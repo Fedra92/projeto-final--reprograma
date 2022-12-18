@@ -2,7 +2,7 @@ import {BrowserRouter, Routes, Route} from 'react-router-dom'
 import { Inicio } from './Componentes/Inicio'
 import { CriarCiclo } from './CriarCiclo'
 import { Menu } from './Componentes/Menu'
-import { CriarConta } from './Componentes/Criar Conta/CriarConta'
+import { CriarConta } from './Componentes/criar-conta/CriarConta'
 import { GerenciarCiclo } from './GerenciarCiclo'
 
 export function ApplicationRoutes () {

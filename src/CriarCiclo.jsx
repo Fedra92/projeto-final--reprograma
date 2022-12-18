@@ -1,7 +1,7 @@
 import { useState } from "react"
-import { TodoForm } from "./Componentes/Ciclo de estudos/TodoForm"
-import { TodoList } from "./Componentes/Ciclo de estudos/TodoList"
-import { DisplayTimer } from "./Componentes/Ciclo de estudos/displayTimer";
+import { TodoForm } from "./Componentes/ciclo-de-estudos/TodoForm"
+import { TodoList } from "./Componentes/ciclo-de-estudos/TodoList"
+import { DisplayTimer } from "./Componentes/ciclo-de-estudos/DisplayTimer";
 import Button from 'react-bootstrap/Button'
 import styles from '../src/CSS/criarciclo.module.css'
 
