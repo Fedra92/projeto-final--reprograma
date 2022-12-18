@@ -1,0 +1,15 @@
+.titulo {
+    color:rgb(59, 93, 208);
+    font-weight: bold;
+    margin-left: 30%;
+    padding: 2%;
+}
+
+.paragrafo {
+    margin-left: 20%;
+}
+
+.imagem {
+    width: 46%;
+    margin-left: 30%;
+}

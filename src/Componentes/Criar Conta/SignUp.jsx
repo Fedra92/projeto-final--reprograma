@@ -1,12 +1,12 @@
 import { Form, Button, Card } from 'react-bootstrap'
 import React, { useRef } from "react"
-//import { useAuth } from '../contexts/AuthContext'
+//import {useAuth } from '../contexts/AuthContext'
 
 export function SignUp() {
 const emailRef = useRef()
 const passwordRef = useRef()
 const passwordConfirmRef = useRef() 
-//const { signup } = useAuth()
+
 return (
     <>
     <Card>
@@ -35,3 +35,5 @@ return (
     </>
 )
 }
+
+//entendi!

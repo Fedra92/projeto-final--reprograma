@@ -1,0 +1,112 @@
+.titulo {
+    font-weight: bold;
+    text-align: center;
+    color:rgb(59, 93, 208);
+    
+}
+
+.subtitulo {
+    
+    font-size: 1rem;
+}
+
+.studying {
+    
+    margin-left: 3rem;
+
+}
+
+.botaonome {
+    background-color: rgb(59, 93, 208);
+    color: white;
+    text-decoration: none;
+}
+
+.botao {
+        background-color:rgb(59, 93, 208);
+        border: none;
+        padding: 1.6rem;
+        margin-bottom: 70px;
+        margin-left: 18%;
+}
+
+@media (max-width: 480px) {
+    .titulo {
+        font-size: 1.8rem;
+        padding: 3rem;
+        margin-left:1.5rem;
+        text-align: center;
+}
+    .studying {
+        width: 60%;
+        margin-left:20%;
+    }
+
+    .paragrafo {
+        padding: 3rem;
+        font-size: 1rem;
+    }
+
+    .botao {
+        margin-left: 7.8rem; 
+        margin-bottom: 3rem;
+        padding: 1.2rem;
+        background-color:rgb(59, 93, 208);
+        border: none;
+        
+    }
+
+
+}
+
+@media(max-width:768px) and (min-width: 481px){
+
+    .titulo {
+        font-size: 2rem;
+        padding: 2rem;
+        margin-left:10%;
+        text-align: center;
+}
+
+    .studying {
+        width: 50%;
+        margin-left:28%;
+    }
+
+    .paragrafo {
+        padding: 3rem;
+        font-size: 1rem;
+        margin-left: 5%
+    }
+
+    .botao {
+        margin-left:34%;
+        margin-right: 24%; 
+        margin-bottom: 3rem;
+        padding: 1.2rem;
+        background-color:rgb(59, 93, 208);
+        border: none;
+        
+    }
+}
+
+@media (min-width:769px) {
+    .studying {
+        width: 40%;
+        margin-left:26%;
+    }
+
+    .paragrafo {
+        padding: 1rem;
+        font-size: 1rem;
+        margin-left: 5%
+    }
+
+    .titulo {
+        padding: 3rem;
+    }
+
+    .botao {
+        margin-left:40%;
+    }
+}

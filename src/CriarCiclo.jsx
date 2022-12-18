@@ -58,8 +58,7 @@ const [hoursAndMinutesSum, setHoursAndMinutesSum] = useState('00:00')
     setHoursAndMinutesSum(`${hoursSum}:${minutesSum}`)
 
     console.log(`${hoursSum}:${minutesSum}`)
-
-      
+// tipo, to tendo dificuldade agora com o firebase haha, o auth
     function countDown() {
       hoursSum
       minutesSum = minutesSum-1
@@ -96,7 +95,7 @@ const [hoursAndMinutesSum, setHoursAndMinutesSum] = useState('00:00')
         removeTodo={removeTodo}
         toggleComplete={toggleComplete}
       />
-      <div>
+      <div className={styles.botoes}>
       <Button variant="outline-secondary" onClick={deleteAll}>Limpar todas</Button>
       <Button variant="outline-secondary">Salvar</Button>
       <Button variant="outline-primary" onClick={comecarCiclo}>Começar</Button>

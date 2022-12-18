@@ -35,13 +35,13 @@ export function TodoForm({ addTodo }) {
         <Card.Body>
         <Form onSubmit={handleSubmit}>
         <Form.Group>
-        <Form.Control className={styles.formControl} value={todo.task} onChange={handleTaskInputChange}
-        type="text" />
-        <Form.Text className="text-muted">
+        <Form.Text className={styles.formText}>
           Escreva o nome da matéria que você vai estudar.
         </Form.Text>
-        <Form.Control className={styles.formControl} value={todo.time} type="time" onChange={handleTimeInputChange}/>
-        <Button variant="primary" type="submit">Adicionar matéria</Button>
+        <Form.Control className={styles.formControl} value={todo.task} onChange={handleTaskInputChange}
+        type="text" />
+        <Form.Control className={styles.formControlTempo} value={todo.time} type="time" onChange={handleTimeInputChange}/>
+        <Button className={styles.adicionarMateria} variant="primary" type="submit">Adicionar matéria</Button>
         </Form.Group>    
         </Form>
         </Card.Body>

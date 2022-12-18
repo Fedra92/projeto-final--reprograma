@@ -1,12 +1,112 @@
 .formControl {
-    width: 300px;
+    width: 50%;
     display: flex;
+    margin-left: 30%;
+    
+}
+
+.formControlTempo{
+    width: 100px; 
+    margin: auto;
+}
+
+.adicionarMateria {
+    margin-top: 13px;
+    margin-left: 45%;
+    
 }
 
 .formCard {
-    width: 600px;
+    width: 80%;
     padding: 2rem;
-    background-color: aqua;
-    margin-left: 85px;
+    margin: auto;
 }
 
+.formText {
+    text-align: center;
+    
+    
+}
+
+.botoes {
+    display: flex;
+    margin-top: 30px;
+    margin-left: 25%;
+    gap: 6%;
+}
+
+@media (max-width: 480px) {
+   
+   .botoes{
+    margin-left: 15%;
+   }
+
+   .adicionarMateria {
+    margin-left: 23%;
+
+   }
+
+   .formText {
+    margin-left: 35%;
+    text-align: center;
+}
+
+.formControlTempo {
+    margin-top: 10%;
+
+}
+    
+}
+
+@media(max-width:768px) and (min-width: 481px){
+
+    .adicionarMateria {
+        margin-left: 35%;
+    
+       }
+
+    .formControlTempo {
+        margin-top: 5%;
+    
+    }
+
+    .formText { 
+        margin-left: 22%;
+    }
+
+
+}
+
+@media (min-width:769px) {
+    
+    .adicionarMateria {
+        margin-left: 39%;
+    
+       }
+
+       .formControlTempo {
+        margin-top: 5%;
+    
+    }
+
+    .formCard {
+        width: 60%
+    }
+
+    .botoes{
+        margin-left: 35%;
+       }
+
+       .formControl {
+        margin-left: 25%;
+    }
+
+    .formText { 
+        margin-left: 27%;
+    }
+
+    .formControlTempo {
+        margin-top: 1%;
+    
+    }
+}

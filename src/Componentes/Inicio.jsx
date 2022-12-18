@@ -1,14 +1,22 @@
 import Button from 'react-bootstrap/Button';
+import styles from '../CSS/inicio.module.css'
+import Image from '../Imagens/undraw_studying_re_deca.svg'
+import { Link } from "react-router-dom"
+
+
 
 export function Inicio() {
     return(
 <div>
-   <h1>Estude melhor montando um Ciclo de Estudos</h1>
-   <h3>Ciclo de estudos é o nome de uma técnica já bastante utilizada por concurseiros.
-    Mas o seu uso não se restringe a esse tipo de objetivo, podendo ser aplicado em qualquer objeto de estudo. Saiba mais abaixo.
-   </h3>
-   <p>O Ciclo de Estudos é uma alternativa ao tradicional cronograma semanal de estudos. E ele é mais funcional por alguns motivos.</p>
-   <p>Quando você tem um cronograma em formato de agenda que delimita sua rotina de estudo diariamente, a hipótese de você não cumprir o estabelecido é enorme.
+    <section className={styles.header}>
+   <h1 className={styles.titulo}>Estude melhor montando um Ciclo de Estudos</h1>
+   
+   <img src={Image} className={styles.studying} />
+   </section>
+   <p className={styles.paragrafo}>O Ciclo de Estudos é uma alternativa ao tradicional cronograma semanal de estudos. E ele é mais funcional por alguns motivos.
+   <br />
+   <br />
+   Quando você tem um cronograma em formato de agenda que delimita sua rotina de estudo diariamente, a hipótese de você não cumprir o estabelecido é enorme.
     Vamos imaginar que você esteja montando um plano de estudo para concurso. Dentro da metodologia tradicional, os estudantes são estimulados a se organizarem da seguinte forma:
     Fonte: Método de Estudo
     Essa organização, mesmo sendo amplamente adotada, nem sempre é a metodologia indicada para quem deseja se dedicar integral ou parcialmente ao estudo.
@@ -26,7 +34,8 @@ limita o aproveitamento de pequenos espaços de tempo para estudo.
 É claro que muita gente obteve sucesso com o método tradicional. Ele é uma das opções para quem está se preparando para uma importante prova.
 Entretanto, o objetivo deste artigo é apresentar um novo método que pode se adequar melhor a você.
 Encarar a rotina pesada de estudo, seja para concursos, provas como ENEM ou provas de classe como a OAB, pode se tornar cansativo e, pior, improdutivo. É por isso que, a seguir, separamos os 5 passos necessários para montar um ciclo de estudos.</p>
-<Button>Criar meu Ciclo de Estudos</Button>
+<Button className={styles.botao}>
+    <Link className={styles.botaonome} to="/criarciclo">Criar meu Ciclo de Estudos</Link></Button>
 </div>
 )
 }
