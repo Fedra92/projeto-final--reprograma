@@ -2,6 +2,7 @@
     font-weight: bold;
     text-align: center;
     color:rgb(59, 93, 208);
+    text-transform: uppercase;
     
 }
 
@@ -10,9 +11,11 @@
     font-size: 1rem;
 }
 
+
 .studying {
     
     margin-left: 3rem;
+    padding: 3rem;
 
 }
 
@@ -27,7 +30,7 @@
         border: none;
         padding: 1.6rem;
         margin-bottom: 70px;
-        margin-left: 18%;
+        margin-left: 10%;
 }
 
 @media (max-width: 480px) {

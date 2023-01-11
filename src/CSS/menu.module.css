@@ -6,11 +6,12 @@
     display: flex;
     justify-content: space-between;
     gap: 3rem;
-    padding: 1rem;
+    padding: 1.5rem;
     text-decoration: none;
     justify-content: center;
     background-color: rgb(90, 126, 245);
     width: 100%;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
 
 }
 
@@ -26,6 +27,8 @@
     background-color: rgb(90, 126, 245);
     color: white;
     text-decoration: none;
+    margin: auto;
+    
 }
 
 @media(max-width:768px) and (min-width: 481px){

@@ -1,9 +1,10 @@
 import { Link } from "react-router-dom"
+import { Nav, Navbar, NavLink } from "react-bootstrap/"
 import styles from "../CSS/menu.module.css"
 
 export function Menu (){
     return(
-        <ul className={styles.menuContainer}>
+        <Navbar className={styles.menuContainer}>
             <li className={styles.menuItem}>
                 <Link className={styles.menuName} to="/">Início</Link>
             </li>
@@ -16,6 +17,6 @@ export function Menu (){
             <li className={styles.menuItem}>
               <Link className={styles.menuName} to="/conta">Criar Conta</Link>
             </li>
-        </ul>
+        </Navbar>
     )
 }

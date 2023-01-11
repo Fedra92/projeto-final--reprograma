@@ -18,7 +18,7 @@
 
 .formCard {
     width: 80%;
-    padding: 2rem;
+    padding: 1rem;
     margin: auto;
 }
 
@@ -34,6 +34,8 @@
     margin-left: 25%;
     gap: 6%;
 }
+
+
 
 @media (max-width: 480px) {
    
